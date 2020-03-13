@@ -1,11 +1,28 @@
 .App {
   text-align: center;
+  /* border: solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(50, 50, 63);
+  color: white;
+  padding: 0 1rem;
 }
 
+.nav{
+  display: flex;
+  width: 40%;
+  /* border: solid green; */
+  justify-content: space-around;
+}
 .Nav-link {
   padding: 2rem;
-}
+  /* border: solid yellow; */
+  font-size: larger;
+ }
 
 .nav-item {
   margin-top: 1rem;
+  /* border: solid blue; */
+  text-align: center;
 }
